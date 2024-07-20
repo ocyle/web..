@@ -1,0 +1,171 @@
+*{   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {   
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+} 
+.navbar {   
+    display: flex;
+    margin-right: 10px;
+
+}
+.logo{   
+    margin-left: 100px;
+}
+
+.logo a {   
+
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a {   
+    display: block;
+    padding: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{   
+    background: #00000000;
+}
+.header {   
+    height: 65vh !important;
+    background: url(/iconos/portada2.jpg) no-repeat center;
+    background-size: cover;
+}
+.title {   
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffee00;
+    text-shadow: 0 0 10px black;
+}
+p{   
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.btn {   
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid none;
+    color: white;
+    text-decoration: none;
+    background: none;
+}
+.btn:hover {   
+    background: none;
+}
+
+.btn-home{   
+    display: flex;
+}
+.btn-home a {
+    margin: 0 0%;   
+}
+.content{   
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {   
+    padding: 30px;
+    background: rgb(0, 0, 0);
+}
+.box-container {   
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {   
+    height: 11rem;
+    width: 20rem;
+    background:none;
+    text-align: center;
+    border-radius: 5rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.148);
+    margin: 2rem;
+}
+
+.box-container .box i {   
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: right;
+    border-radius: 50%;
+    color: white;
+    background:#fffb00;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.box-container .box h3{   
+    font-size: 40px;
+    color: white;
+
+}
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+.about {   
+    background: #161717;
+
+}
+.price{   
+    background: url(/iconos/portada\ 1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {   
+    padding-top: 10px;
+    background: #595959;
+    padding-bottom: 0%;
+}
+@media (max-width: 768px) {
+    .title{   
+        margin-bottom: 0;
+        font-size: 40px;
+        .sau{   
+            height: 120vh;
+        }
+    }
+    
+}
